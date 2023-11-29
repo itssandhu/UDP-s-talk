@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>UDP Talking Program</title>
+</head>
+<body>
+    <h1>UDP Talking Program</h1>
+    <form action="/start_talking" method="post">
+        <label for="local_port">Enter Local Port:</label>
+        <input type="text" id="local_port" name="local_port" required><br>
+
+        <label for="remote_ip">Enter Remote IP:</label>
+        <input type="text" id="remote_ip" name="remote_ip" required><br>
+
+        <label for="remote_port">Enter Remote Port:</label>
+        <input type="text" id="remote_port" name="remote_port" required><br>
+
+        <input type="submit" value="Start Talking">
+    </form>
+</body>
+</html>

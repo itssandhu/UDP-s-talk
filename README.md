@@ -1,2 +1,4 @@
 # UDP-s-talk
-UDP s-talk program (run on linux) with another instance of the program ran on a different machine. 
+To be ran on Linux.
+Be sure to have nodejs installed as well as the following packages: express, body-parser
+npm install express body-parser (code to install the packages in command line)
